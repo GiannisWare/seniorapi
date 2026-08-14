@@ -1,0 +1,14 @@
+services:
+  app:
+    build:
+      context: .
+      target: prod
+    env_file:
+      - .env.production
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    command: node src/index.js
+
+  # Neon Cloud is external in production. The app uses DATABASE_URL and the
+  # Neon serverless driver to connect directly to the hosted database.

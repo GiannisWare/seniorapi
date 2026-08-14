@@ -134,3 +134,13 @@
 {"level":"info","message":"::1 - - [14/Aug/2026:13:41:12 +0000] \"GET /health HTTP/1.1\" 429 61 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
 {"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"seniorapi","userAgent":"PostmanRuntime/7.56.0"}
 {"level":"info","message":"::1 - - [14/Aug/2026:13:41:21 +0000] \"GET /health HTTP/1.1\" 429 61 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"Hello from this daaaaaaamn project","service":"seniorapi"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [14/Aug/2026:14:08:41 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\"","service":"seniorapi"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [14/Aug/2026:14:08:55 +0000] \"GET /api HTTP/1.1\" 200 32 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\"","service":"seniorapi"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [14/Aug/2026:14:08:59 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\"","service":"seniorapi"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [14/Aug/2026:14:09:06 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [14/Aug/2026:14:11:02 +0000] \"GET /api/sign-up HTTP/1.1\" 404 150 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [14/Aug/2026:14:11:08 +0000] \"POST /api/sign-up HTTP/1.1\" 404 151 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"User johngio20@gmail.com created nicely bro m","service":"seniorapi"}
+{"level":"info","message":"User registered succesfullyyyyyy, johngio20@gmail.com","service":"seniorapi"}
+{"level":"info","message":"::ffff:192.168.65.1 - - [14/Aug/2026:14:11:23 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 117 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}

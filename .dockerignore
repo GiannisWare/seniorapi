@@ -1,0 +1,9 @@
+node_modules
+logs
+.git
+.idea
+.DS_Store
+*.log
+.env
+.env.local
+.env.*.local
