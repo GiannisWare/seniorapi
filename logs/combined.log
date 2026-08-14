@@ -48,3 +48,89 @@
 {"level":"info","message":"::1 - - [14/Aug/2026:13:10:08 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 41 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
 {"level":"info","message":"User signed out succesfullyyyyyy","service":"seniorapi"}
 {"level":"info","message":"::1 - - [14/Aug/2026:13:10:12 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 41 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:30:45 +0000] \"GET /health HTTP/1.1\" 500 93 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:32:14 +0000] \"GET /health HTTP/1.1\" 500 93 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:33:46 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:33:57 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:33:57 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:33:58 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:33:59 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:34:00 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:34:01 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:34:01 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:34:02 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:34:02 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:34:04 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:34:04 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:34:05 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:34:05 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:34:06 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:34:06 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:34:06 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:34:07 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:34:08 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:34:09 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:34:11 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:34:12 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:34:12 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:34:13 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:34:13 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"seniorapi","userAgent":"PostmanRuntime/7.56.0"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:37:42 +0000] \"GET /health HTTP/1.1\" 403 63 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"seniorapi","userAgent":"PostmanRuntime/7.56.0"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:37:43 +0000] \"GET /health HTTP/1.1\" 403 63 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"seniorapi","userAgent":"PostmanRuntime/7.56.0"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:38:32 +0000] \"GET /health HTTP/1.1\" 403 63 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"seniorapi","userAgent":"PostmanRuntime/7.56.0"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:38:33 +0000] \"GET /health HTTP/1.1\" 403 63 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"seniorapi","userAgent":"PostmanRuntime/7.56.0"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:38:34 +0000] \"GET /health HTTP/1.1\" 403 63 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"seniorapi","userAgent":"PostmanRuntime/7.56.0"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:38:34 +0000] \"GET /health HTTP/1.1\" 403 63 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"seniorapi","userAgent":"PostmanRuntime/7.56.0"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:38:35 +0000] \"GET /health HTTP/1.1\" 403 63 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"seniorapi","userAgent":"PostmanRuntime/7.56.0"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:38:35 +0000] \"GET /health HTTP/1.1\" 403 63 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"seniorapi","userAgent":"PostmanRuntime/7.56.0"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:38:36 +0000] \"GET /health HTTP/1.1\" 403 63 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"seniorapi","userAgent":"PostmanRuntime/7.56.0"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:38:36 +0000] \"GET /health HTTP/1.1\" 403 63 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"seniorapi","userAgent":"PostmanRuntime/7.56.0"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:38:37 +0000] \"GET /health HTTP/1.1\" 403 63 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"seniorapi","userAgent":"PostmanRuntime/7.56.0"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:38:37 +0000] \"GET /health HTTP/1.1\" 403 63 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"seniorapi","userAgent":"PostmanRuntime/7.56.0"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:38:38 +0000] \"GET /health HTTP/1.1\" 403 63 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:32 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:33 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:34 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:34 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:35 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:35 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:36 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:37 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:37 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:37 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:38 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:38 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:39 +0000] \"GET /health HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:41 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:41 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:42 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:42 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:43 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:43 +0000] \"GET /health HTTP/1.1\" 200 73 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:44 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:44 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:45 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:45 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:39:46 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:41:09 +0000] \"GET /health HTTP/1.1\" 200 72 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:41:10 +0000] \"GET /health HTTP/1.1\" - - \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:41:11 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"seniorapi","userAgent":"PostmanRuntime/7.56.0"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:41:11 +0000] \"GET /health HTTP/1.1\" 429 61 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"seniorapi","userAgent":"PostmanRuntime/7.56.0"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:41:12 +0000] \"GET /health HTTP/1.1\" 429 61 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","path":"/health","service":"seniorapi","userAgent":"PostmanRuntime/7.56.0"}
+{"level":"info","message":"::1 - - [14/Aug/2026:13:41:21 +0000] \"GET /health HTTP/1.1\" 429 61 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
