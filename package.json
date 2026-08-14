@@ -9,7 +9,10 @@
     "lint": "./node_modules/.bin/eslint .",
     "lint:fix": "./node_modules/.bin/eslint . --fix",
     "format": "./node_modules/.bin/prettier --write .",
-    "format:check": "./node_modules/.bin/prettier --check ."
+    "format:check": "./node_modules/.bin/prettier --check .",
+    "db:generate": "./node_modules/.bin/drizzle-kit generate",
+    "db:migrate": "./node_modules/.bin/drizzle-kit migrate",
+    "db:studio": "./node_modules/.bin/drizzle-kit studio"
   },
   "repository": {
     "type": "git",
@@ -23,11 +26,14 @@
   },
   "homepage": "https://github.com/GiannisWare/seniorapi#readme",
   "dependencies": {
+    "@neondatabase/serverless": "^1.1.0",
     "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.2",
     "express": "^5.2.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "drizzle-kit": "^0.31.10",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.6",
     "prettier": "^3.9.6"
