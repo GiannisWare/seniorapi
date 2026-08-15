@@ -24,12 +24,10 @@ export const securityMiddleware = async (req, res, next) => {
         method: req.method,
       });
 
-      return res
-        .status(403)
-        .json({
-          error: 'Forbidden',
-          message: 'Shield blocked by security policy',
-        });
+      return res.status(403).json({
+        error: 'Forbidden',
+        message: 'Shield blocked by security policy',
+      });
     }
 
     if (decision.isDenied() && decision.reason.isRateLimit()) {
