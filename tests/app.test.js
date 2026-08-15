@@ -767,7 +767,7 @@ describe('API endpoints', () => {
       });
     });
 
-    it('PUT /api/users/:id lets an admin change another user\'s role', async () => {
+    it("PUT /api/users/:id lets an admin change another user's role", async () => {
       const req = createControllerRequest({
         body: {
           role: 'admin',
