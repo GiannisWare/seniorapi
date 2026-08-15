@@ -1,0 +1,56 @@
+name: Lint and Format
+
+on:
+  push:
+    branches:
+      - main
+      - staging
+  pull_request:
+    branches:
+      - main
+      - staging
+
+permissions:
+  contents: read
+
+jobs:
+  lint-and-format:
+    name: Lint and Format
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run ESLint
+        id: lint
+        continue-on-error: true
+        run: npm run lint
+
+      - name: Run Prettier check
+        id: format
+        continue-on-error: true
+        run: npm run format:check
+
+      - name: ESLint failure annotation
+        if: steps.lint.outcome == 'failure'
+        run: |
+          echo "::error title=ESLint failed::Run npm run lint:fix to apply the suggested fixes."
+
+      - name: Prettier failure annotation
+        if: steps.format.outcome == 'failure'
+        run: |
+          echo "::error title=Prettier check failed::Run npm run format to rewrite the formatted files."
+
+      - name: Fail workflow on lint or format issues
+        if: steps.lint.outcome == 'failure' || steps.format.outcome == 'failure'
+        run: exit 1
