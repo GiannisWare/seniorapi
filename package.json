@@ -23,8 +23,8 @@
     "db:generate": "./node_modules/.bin/drizzle-kit generate",
     "db:migrate": "./node_modules/.bin/drizzle-kit migrate",
     "db:studio": "./node_modules/.bin/drizzle-kit studio",
-    "dev:docker": "sh .scripts/dev.sh",
-    "prod:docker": "sh .scripts/prod.sh"
+    "dev:docker": "sh scripts/dev.sh",
+    "prod:docker": "sh scripts/prod.sh"
   },
   "repository": {
     "type": "git",

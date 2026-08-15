@@ -144,3 +144,76 @@
 {"level":"info","message":"User johngio20@gmail.com created nicely bro m","service":"seniorapi"}
 {"level":"info","message":"User registered succesfullyyyyyy, johngio20@gmail.com","service":"seniorapi"}
 {"level":"info","message":"::ffff:192.168.65.1 - - [14/Aug/2026:14:11:23 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 117 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"Hello from this daaaaaaamn project","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Aug/2026:22:28:29 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\"","service":"seniorapi"}
+{"level":"info","message":"Getting all users...","service":"seniorapi"}
+{"level":"error","message":"Error getting users Cannot convert undefined or null to object","service":"seniorapi","stack":"TypeError: Cannot convert undefined or null to object\n    at Function.entries (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:55:17)\n    at file:///app/node_modules/drizzle-orm/utils.js:65:22\n    at Array.reduce (<anonymous>)\n    at orderSelectedFields (file:///app/node_modules/drizzle-orm/utils.js:55:33)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:770:26\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)\n    at PgSelectBase._prepare (file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:769:19)\n    at file:///app/node_modules/drizzle-orm/pg-core/query-builders/select.js:797:19\n    at Object.startActiveSpan (file:///app/node_modules/drizzle-orm/tracing.js:8:14)"}
+{"level":"error","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Aug/2026:22:28:41 +0000] \"GET /api/users HTTP/1.1\" 500 1061 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\"","service":"seniorapi"}
+{"level":"info","message":"Getting all users...","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Aug/2026:22:29:35 +0000] \"GET /api/users HTTP/1.1\" 200 367 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36\"","service":"seniorapi"}
+{"level":"info","message":"Getting user 2...","service":"seniorapi"}
+{"level":"error","message":"Error getting user 2 Unauthorized","service":"seniorapi","stack":"Error: Unauthorized\n    at getAuthenticatedUser (file:///app/src/controllers/users.controller.js:12:15)\n    at getUserById (file:///app/src/controllers/users.controller.js:54:9)\n    at Layer.handleRequest (/app/node_modules/router/lib/layer.js:152:17)\n    at next (/app/node_modules/router/lib/route.js:157:13)\n    at Route.dispatch (/app/node_modules/router/lib/route.js:117:3)\n    at handle (/app/node_modules/router/index.js:435:11)\n    at Layer.handleRequest (/app/node_modules/router/lib/layer.js:152:17)\n    at /app/node_modules/router/index.js:295:15\n    at param (/app/node_modules/router/index.js:600:14)\n    at param (/app/node_modules/router/index.js:610:14)"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Aug/2026:22:34:29 +0000] \"GET /api/users/2 HTTP/1.1\" 401 24 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Aug/2026:22:35:01 +0000] \"GET /api/auth/sign-in HTTP/1.1\" 404 155 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"error","message":"Error authenticating user: Error: User not found","service":"seniorapi"}
+{"level":"error","message":"Signin error Error: User not found","service":"seniorapi","stack":"Error: Error: User not found\n    at authenticateUser (file:///app/src/services/auth.service.js:68:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async signIn (file:///app/src/controllers/auth.controller.js:64:22)"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Aug/2026:22:35:08 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 500 425 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"error","message":"Error authenticating user: Error: User not found","service":"seniorapi"}
+{"level":"error","message":"Signin error Error: User not found","service":"seniorapi","stack":"Error: Error: User not found\n    at authenticateUser (file:///app/src/services/auth.service.js:68:15)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async signIn (file:///app/src/controllers/auth.controller.js:64:22)"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Aug/2026:22:35:24 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 500 425 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"User johngio20@gmail.com created nicely bro m","service":"seniorapi"}
+{"level":"info","message":"User registered succesfullyyyyyy, johngio20@gmail.com","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Aug/2026:22:35:30 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 117 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"User signed in succesfullyyyyyy, johngio20@gmail.com","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Aug/2026:22:35:34 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 116 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"User signed in succesfullyyyyyy, johngio20@gmail.com","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Aug/2026:22:35:39 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 116 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"Getting user 2...","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Aug/2026:22:36:57 +0000] \"GET /api/users/2 HTTP/1.1\" 404 26 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"Getting user 5...","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Aug/2026:22:37:05 +0000] \"GET /api/users/5 HTTP/1.1\" 200 196 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"Deleting user 5...","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Aug/2026:22:37:38 +0000] \"DELETE /api/users/5 HTTP/1.1\" 200 193 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"Getting user 5...","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [14/Aug/2026:22:37:46 +0000] \"GET /api/users/5 HTTP/1.1\" 404 26 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"User authenticated: johngio20@gmail.com user","service":"seniorapi"}
+{"level":"info","message":"Getting user 5...","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [15/Aug/2026:09:22:43 +0000] \"GET /api/users/5 HTTP/1.1\" 404 26 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"User authenticated: johngio20@gmail.com user","service":"seniorapi"}
+{"level":"warn","message":"Access denied for user johngio20@gmail.com with role user. Required: admin","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [15/Aug/2026:09:22:54 +0000] \"GET /api/users/ HTTP/1.1\" 403 70 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"User authenticated: johngio20@gmail.com user","service":"seniorapi"}
+{"level":"warn","message":"Access denied for user johngio20@gmail.com with role user. Required: admin","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [15/Aug/2026:09:24:31 +0000] \"DELETE /api/users/1 HTTP/1.1\" 403 70 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"User authenticated: johngio20@gmail.com user","service":"seniorapi"}
+{"level":"warn","message":"Access denied for user johngio20@gmail.com with role user. Required: admin","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [15/Aug/2026:09:24:34 +0000] \"DELETE /api/users/5 HTTP/1.1\" 403 70 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"User authenticated: johngio20@gmail.com user","service":"seniorapi"}
+{"level":"warn","message":"Access denied for user johngio20@gmail.com with role user. Required: admin","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [15/Aug/2026:09:24:35 +0000] \"DELETE /api/users/3 HTTP/1.1\" 403 70 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"ip":"::ffff:172.20.0.1","level":"warn","message":"Rate limit exceeded","path":"/api/users/2","service":"seniorapi","userAgent":"PostmanRuntime/7.56.0"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [15/Aug/2026:09:24:36 +0000] \"DELETE /api/users/2 HTTP/1.1\" 429 61 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [15/Aug/2026:09:32:39 +0000] \"DELETE /api/users/ HTTP/1.1\" 404 152 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"User authenticated: johngio20@gmail.com user","service":"seniorapi"}
+{"level":"info","message":"Getting all users...","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [15/Aug/2026:09:32:47 +0000] \"GET /api/users/ HTTP/1.1\" 200 367 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [15/Aug/2026:09:34:12 +0000] \"GET /api/auth/sign-up HTTP/1.1\" 404 155 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"User johngio20@gmail.com created nicely bro m","service":"seniorapi"}
+{"level":"info","message":"User registered succesfullyyyyyy, johngio20@gmail.com","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [15/Aug/2026:09:34:17 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 117 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"User authenticated: johngio20@gmail.com admin","service":"seniorapi"}
+{"level":"info","message":"Getting all users...","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [15/Aug/2026:09:35:15 +0000] \"GET /api/users/ HTTP/1.1\" 200 514 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"User authenticated: johngio20@gmail.com admin","service":"seniorapi"}
+{"level":"info","message":"Getting all users...","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [15/Aug/2026:09:35:34 +0000] \"GET /api/users/ HTTP/1.1\" 200 514 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"User authenticated: johngio20@gmail.com admin","service":"seniorapi"}
+{"level":"info","message":"Getting all users...","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [15/Aug/2026:09:37:44 +0000] \"GET /api/users/ HTTP/1.1\" 200 514 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"User authenticated: johngio20@gmail.com admin","service":"seniorapi"}
+{"level":"info","message":"Getting all users...","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [15/Aug/2026:09:37:48 +0000] \"GET /api/users/ HTTP/1.1\" 200 514 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
+{"level":"info","message":"User authenticated: johngio20@gmail.com admin","service":"seniorapi"}
+{"level":"info","message":"Deleting user 4...","service":"seniorapi"}
+{"level":"info","message":"::ffff:172.20.0.1 - - [15/Aug/2026:09:37:57 +0000] \"DELETE /api/users/4 HTTP/1.1\" 200 188 \"-\" \"PostmanRuntime/7.56.0\"","service":"seniorapi"}
